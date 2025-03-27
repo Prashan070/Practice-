@@ -1,5 +1,4 @@
 package PracticeBasic.BasicJavaDemo;
 
-public class BasicSeven {
-
+public class Basic8 {
 }
