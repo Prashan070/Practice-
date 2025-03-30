@@ -1,0 +1,18 @@
+package PracticeBasic.BasicJavaDemo;
+
+public class Basic17 {
+
+
+    //THIS VS SUPPER
+//HASMAP PRGRAM
+//OOPS
+//EXEPTION HANDLING
+//COLLECTION
+
+
+//REMINING EX
+//REMINING COLLECTION
+
+//mUTLI THREADING
+
+}
