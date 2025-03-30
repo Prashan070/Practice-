@@ -24,5 +24,9 @@ public class Basic3 {
         return val;
     }
 
+    public<T,K> T method6(T val, K val2){
+        return val;
+    }
+
 
 }

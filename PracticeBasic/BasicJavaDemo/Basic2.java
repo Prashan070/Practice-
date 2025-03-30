@@ -20,7 +20,6 @@ public class Basic2 {
                 break;
             default:
                 System.out.println("jio");
-                break;
         }
 
 

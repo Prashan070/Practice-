@@ -5,21 +5,19 @@ import java.util.Map;
 
 public class Login {
 
-    private HashMap<String, String> hp;
+    private HashMap<String, User> hp;
 
     public Login() {
         hp = new HashMap<>();
-        hp.put("a", "Prashant");
-        hp.put("b", "raj");
-        hp.put("c", "man");
+        hp.put("Lio", new User(101L, "prashan", "Password"));
     }
 
-    public void registerUser(String user, String password) {
+    public void registerUser(Long userid, String password, User user) {
 
         if (hp.containsKey(user)) {
             System.out.println("User already exist");
         } else {
-            hp.put(user, password);
+
             System.out.println("user added successfully");
         }
 
@@ -31,7 +29,7 @@ public class Login {
             System.out.println("User not found");
             return false;
         }
-        if (    hp.get(user).equals(password)){
+        if (hp.get(user).equals(password)) {
             System.out.println("logined");
             return true;
         }
