@@ -11,14 +11,37 @@ public class Basic12 {
        // System.out.println(Integer.parseInt(num));
         //System.out.println(Integer.valueOf(numt));
 
-        String name = "Prashan";
+/*
+        String name1 = "Prashan";
         String name2  = new String("Prashan");
         String name3 ="Prashan";
         String name4 = new String("Prashan");
 
-        System.out.println(name == name2);
-        System.out.println(name.equals(name2));
-        System.out.println(name.);
+        System.out.println(name1 == name2); // false
+        System.out.println(name1.equals(name2)); //true
+        System.out.println(name1.equals(name3)); //true
+        System.out.println(name2 == name4); //false
+        System.out.println(name2.equals(name4)); //true
+*/
+
+
+    /*    StringBuffer sb1 = new StringBuffer("Prashan");
+        sb1.append(" hi");
+
+        System.out.println(sb1);
+        StringBuilder sb2 = new StringBuilder("Prashan");
+        String sb3 = new String("Prashan");
+*/
+
+
+/*        System.out.println(sb1==sb2);
+        System.out.println(sb1.equals(sb2));
+        System.out.println(sb1.equals(sb3));*/
+       //System.out.println(sb1==sb3); //not possible
+
+
+
+
 
     }
 
@@ -37,24 +60,4 @@ public class Basic12 {
 
 
 
-//immutiable
-//string buffer and builder
-//== and .equals
-//static final
-//string methods
-//wrpper class
-//instance block
-//nested clASS
-//DEFAULT PAKAGE
-//THIS VS SUPPER
-//HASMAP PRGRAM
-//OOPS
-//EXEPTION HANDLING
-//COLLECTION
-
-
-//REMINING EX
-//REMINING COLLECTION
-
-//mUTLI THREADING
 
