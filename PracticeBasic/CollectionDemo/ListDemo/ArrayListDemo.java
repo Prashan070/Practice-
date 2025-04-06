@@ -9,6 +9,12 @@ public class ArrayListDemo {
 
         List<Integer> arrlist = new ArrayList<>();
 
+        //add --0(1)--resizing then O(n)
+       //add--at middle o(n) --resizing
+       //set--o(1)
+      //get--
+
+
         //Add element
         arrlist.add(12);
         arrlist.add(1);
