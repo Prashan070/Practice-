@@ -1,4 +1,3 @@
-/*
 package PracticeBasic.CollectionDemo.ListDemo;
 
 class Node {
@@ -60,7 +59,8 @@ public class LinkedListDemo {
 
         myLinkedList.print();
 
+
+
     }
 
 }
-*/

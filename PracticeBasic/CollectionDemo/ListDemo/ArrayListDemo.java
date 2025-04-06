@@ -14,6 +14,9 @@ public class ArrayListDemo {
        //set--o(1)
       //get--
 
+        List<Integer> ss = Collections.synchronizedList(arrlist);
+
+
 
         //Add element
         arrlist.add(12);
