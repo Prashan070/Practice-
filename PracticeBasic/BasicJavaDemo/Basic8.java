@@ -15,7 +15,9 @@ public class Basic8 {
 
     public static void main(String[] args) {
         Basic8 basic8 = new Basic8();
-        basic8.print(6);
+        Integer num =100;
+
+        basic8.print(num);
         basic8.print("Prashan");
 
 
