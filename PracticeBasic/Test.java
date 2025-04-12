@@ -1,25 +1,66 @@
 package PracticeBasic;
 
-public class Test<T,K> {
+//enum
+//generic
+//varargs
+//string buffer and builder
+//iner class, non static class
+//anymous class
+//default method
 
 
-    public  T method1(T val1, K Val2){
-        return val1;
+
+abstract class Test {
+
+    abstract void display();
+
+    void display2() {
+        System.out.println("concrete method");
     }
 
-
-    public static void main(String[] args) {
-
-        StringBuffer sb1 = new StringBuffer("Prashn");
-        sb1.append(" kumar");
-        System.out.println(sb1);
-
-        Test<Integer,String> j = new Test<>();
-
-
-
-        System.out.println();
+    static void dispay3() {
+        System.out.println("This is static method");
     }
 
+    final void display4() {
+        System.out.println("this is final method");
+    }
 
+    int age;
+    static String passowrd;
+    static final String id = "K";
+
+    Test(){
+
+    }
+
+    Test(int age) {
+        this.age = age;
+    }
+
+    static {
+        passowrd = "abe";
+    }
+
+    {
+        System.out.println("jo");
+    }
+
+    private void metho4(){
+        System.out.println("kkk");
+    }
 }
+class king extends Test{
+
+    king(int age) {
+        super(age);
+    }
+
+    @Override
+    void display() {
+        System.out.println("jio");
+    }
+}
+
+
+

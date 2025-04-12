@@ -1,0 +1,15 @@
+public class t {
+
+    public static void main(String[] args) {
+
+        int[] arr ={1,2,3,4,5,5,6,7,8,9,10};
+
+        int result=0;
+        for(int i=0;i<=10;i++){
+            result=arr[i]^i^result;
+        }
+
+        System.out.println(result);
+    }
+
+}
