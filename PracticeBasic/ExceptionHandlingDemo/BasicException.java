@@ -1,25 +1,28 @@
 package PracticeBasic.ExceptionHandlingDemo;
 
+class underageex extends Exception {
+    public underageex(String message) {
+        super(message);
+    }
+}
 
 public class BasicException {
 
-    void display() {
 
+    void display(int age) {
+        try {
 
-       try {
-           int a = 10 / 0;
-       }catch (ArithmeticException e){
-           System.out.println("k");
-       }finally {
-           System.out.println("jaja");
-       }
+            if (age > 18) {
+                throw new underageex("Under age ex");
+            }
+        }catch (underageex ex){
+            System.out.println(ex.getMessage());
+        }
     }
-
 
     public static void main(String[] args) {
 
-        BasicException vc = new BasicException();
-        vc.display();
-
+        BasicException bs = new BasicException();
+        bs.display(19);
     }
 }
