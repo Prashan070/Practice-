@@ -1,4 +1,6 @@
 package PracticeBasic.SingltonPattern;
 
-public class a_LazyDemo {
+public enum f_enumDemo {
+
+    INSTANCE;
 }
