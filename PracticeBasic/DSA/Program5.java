@@ -1,7 +1,5 @@
 package PracticeBasic.DSA;
 
-import PracticeBasic.BasicJavaDemo.Basic11;
-
 public class Program5 {
 
     //prime number
